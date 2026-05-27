@@ -3,7 +3,7 @@ from unstructured.partition.auto import partition
 from collections import Counter
 
 # 设置pdf路径
-pdf_path = "./data/pdf/2502.pdf"
+pdf_path = "../../data/pdf/2502.pdf"
 elements = partition(filename=pdf_path, content_type="application/pdf")
 # print(f"[elements]:{elements}")
 
