@@ -9,6 +9,11 @@ __pycache__/
 # 设置模型忽略
 src/code/1_data_load/models/
 src/code/2_index_build/models/
+# 忽略常见模型权重文件后缀（可选，避免误提交）
+*.pth
+*.ckpt
+*.bin
+*.pt
 
 # my setting
 .trea/
